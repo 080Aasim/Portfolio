@@ -9,6 +9,7 @@ import "./About.css";
 import DotField from "./DotField";
 import Strands from "./Strands";
 import TextPressure from "./TextPressure";
+import ScrambledText from "./ScrambledText";
 
 const skills = [
   { name: "HTML", icon: MdHtml },
@@ -26,10 +27,42 @@ function About() {
   return (
     <main className="about">
       <div className="about-background" aria-hidden="true">
-        <DotField dotRadius={1.5} dotSpacing={14} bulgeStrength={67} glowRadius={160} sparkle={false} waveAmplitude={0} cursorRadius={500} cursorForce={0.1} bulgeOnly gradientFrom="#A855F7" gradientTo="#B497CF" glowColor="#120F17" />
+        <DotField
+          dotRadius={1.5}
+          dotSpacing={14}
+          bulgeStrength={67}
+          glowRadius={160}
+          sparkle={false}
+          waveAmplitude={0}
+          cursorRadius={500}
+          cursorForce={0.1}
+          bulgeOnly
+          gradientFrom="#A855F7"
+          gradientTo="#B497CF"
+          glowColor="#120F17"
+        />
       </div>
       <div className="about-strands" aria-hidden="true">
-        <Strands colors={["#F97316", "#7C3AED", "#06B6D4"]} count={3} speed={0.5} amplitude={1} waviness={1} thickness={0.7} glow={2.6} taper={3} spread={1} intensity={0.6} saturation={2} opacity={1} scale={1.5} glass={false} refraction={1} dispersion={1} glassSize={1} hueShift={0} />
+        <Strands
+          colors={["#F97316", "#7C3AED", "#06B6D4"]}
+          count={3}
+          speed={0.5}
+          amplitude={1}
+          waviness={1}
+          thickness={0.7}
+          glow={2.6}
+          taper={3}
+          spread={1}
+          intensity={0.6}
+          saturation={2}
+          opacity={1}
+          scale={1.5}
+          glass={false}
+          refraction={1}
+          dispersion={1}
+          glassSize={1}
+          hueShift={0}
+        />
       </div>
 
       <section className="about-content" aria-labelledby="about-title">
@@ -48,14 +81,43 @@ function About() {
             minFontSize={36}
           />
         </div>
-        <p className="about-intro">
-          A full-stack developer who enjoys shaping expressive interfaces and reliable systems behind them.
-        </p>
+        <div className="about-intro">
+          <ScrambledText
+            className="scrambled-text-demo"
+            radius={40}
+            duration={1.2}
+            speed={0.5}
+            scrambleChars=".:"
+          >
+            <p className=" text-black font-medium text-2xl mt-4">
+              I build robust backend systems and APIs <br /> that make
+              applications fast, reliable, and scalable.
+            </p>
+          </ScrambledText>
+        </div>
 
         <div className="about-links mt-5" aria-label="Profile links">
-          <a href="https://www.linkedin.com/in/aasim-akhtar-290b861a0/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
-          <a href="https://www.gniotgroup.edu.in/" target="_blank" rel="noreferrer">Graduate <span>↗</span></a>
-          <a href="https://github.com/080Aasim" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <a
+            href="https://www.linkedin.com/in/aasim-akhtar-290b861a0/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn <span>↗</span>
+          </a>
+          <a
+            href="https://www.gniotgroup.edu.in/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Graduate <span>↗</span>
+          </a>
+          <a
+            href="https://github.com/080Aasim"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub <span>↗</span>
+          </a>
         </div>
 
         <div className="skills-section">

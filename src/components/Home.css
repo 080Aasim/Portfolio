@@ -69,6 +69,25 @@ h1 {
   z-index: 1;
 }
 
+.resume-btn{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #000000;
+  /* background-color: #007bff; */
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+  /* background-color: white; */
+  color: #000000;
+  scale: 1.05;
+  transition: background-color, scale 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
 @media (max-width: 768px) {
   .intro {
     padding: 18px 16px;

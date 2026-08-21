@@ -21,7 +21,7 @@ function Navigation() {
       </div>
 
       <div className="right">
-        <NavLink className="nlink" to="https://x.com/VanitasO8" target="_blank">ट्विटर</NavLink>
+        <NavLink className="nlink" to="https://github.com/080Aasim" target="_blank">गिटहब</NavLink>
         <NavLink className="nlink" to="https://www.linkedin.com/in/aasim-akhtar-290b861a0/" target="_blank">लिंक्डइन</NavLink>
       </div>
     </div>

@@ -2,6 +2,7 @@ import DotField from "./DotField";
 import "./Home.css";
 import TextPressure from "./TextPressure";
 import ScrambledText from "./ScrambledText";
+import ShinyText from "./ShinyText";
 
 function Home() {
   return (
@@ -31,7 +32,9 @@ function Home() {
       </div>
       <div className="intro z-10 absolute top-43">
         {/* <img src="/src/assets/aasim.png" alt="" className="img" /> */}
-        <div className="poster-name" aria-hidden="true">AASIM</div>
+        <div className="poster-name" aria-hidden="true">
+          AASIM
+        </div>
         <div className="img backImg"></div>
         <div className="text">
           <ScrambledText
@@ -42,14 +45,14 @@ function Home() {
             scrambleChars=".:"
           >
             <p className=" text-black font-medium text-2xl mt-4">
-              I design interfaces users love and build backend systems <br />{" "}
-              that make them work flawlessly.
+              I build robust backend systems and APIs <br /> that make
+              applications fast, reliable, and scalable.
             </p>
             {/* <h1 className=" text-black">I’m Aasim, a Full Stack Developer.</h1> */}
           </ScrambledText>
           <div style={{ position: "relative", height: "fit-content" }}>
             <TextPressure
-              text="I’m Aasim, a Full Stack Developer."
+              text="I’m Aasim, a Backend Developer."
               flex
               alpha={false}
               stroke={false}
@@ -62,6 +65,48 @@ function Home() {
             />
           </div>
           <h1 className="main-line"></h1>
+          <div className="flex gap-4 items-center justify-center">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="resume-btn"
+            >
+              <ShinyText
+                text="View Resume"
+                className="text-2xl font-serif"
+                speed={2}
+                delay={0}
+                color="#6b7280"
+                shineColor="#000000"
+                spread={120}
+                direction="left"
+                yoyo={false}
+                pauseOnHover={false}
+                disabled={false}
+              />
+            </a>
+
+            <a
+              href="/resume.pdf"
+              download="Aasim-Akhtar-Resume.pdf"
+              className="resume-btn"
+            >
+              <ShinyText
+                text="Download Resume"
+                className="text-2xl font-serif"
+                speed={2}
+                delay={0}
+                color="#6b7280"
+                shineColor="#000000"
+                spread={120}
+                direction="left"
+                yoyo={false}
+                pauseOnHover={false}
+                disabled={false}
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
