@@ -8,10 +8,12 @@ import shoppingCartImage from "../assets/project3.png";
 import ecommerceImage from "../assets/ecommerce.png";
 import ledgerApiImage from "../assets/project4.png";
 import leaderboardApiImage from "../assets/project5.png";
+import ElectionManagementSystemImage from "../assets/project6.png";
 
 const projects = [
   { title: "Ledger API", image: leaderboardApiImage, url: "https://backend-ledger-1-g1yk.onrender.com/" },
   { title: "Leaderboard API", image: ledgerApiImage, url: "https://real-time-leaderboard-1.onrender.com/" },
+  { title: "Election Management System API", image: ElectionManagementSystemImage, url: "https://election-management-system-kezo.onrender.com/" },
   { title: "Ecommerce", image: ecommerceImage, url: "https://fullstack-frontend-sable-three.vercel.app/" },
   { title: "Guest House", image: guestHouseImage, url: "https://080aasim.github.io/guestHouse/" },
   { title: "Shopping Cart Demo", image: shoppingCartImage, url: "https://080aasim.github.io/shoppingCart/" },
