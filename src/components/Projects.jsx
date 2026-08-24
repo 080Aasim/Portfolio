@@ -5,7 +5,7 @@ import ShinyText from "./ShinyText";
 import guestHouseImage from "../assets/project1.png";
 import catFactImage from "../assets/project2.png";
 import shoppingCartImage from "../assets/project3.png";
-import ecommerceImage from "../assets/ecommerce.png";
+import ecommerceImage from "../assets/project7.png";
 import ledgerApiImage from "../assets/project4.png";
 import leaderboardApiImage from "../assets/project5.png";
 import ElectionManagementSystemImage from "../assets/project6.png";
