@@ -9,12 +9,14 @@ import ecommerceImage from "../assets/project7.png";
 import ledgerApiImage from "../assets/project4.png";
 import leaderboardApiImage from "../assets/project5.png";
 import ElectionManagementSystemImage from "../assets/project6.png";
+import SmartLinkImage from "../assets/project8.png";
 
 const projects = [
   { title: "Ledger API", image: leaderboardApiImage, url: "https://backend-ledger-1-g1yk.onrender.com/" },
   { title: "Leaderboard API", image: ledgerApiImage, url: "https://real-time-leaderboard-1.onrender.com/" },
   { title: "Election Management System API", image: ElectionManagementSystemImage, url: "https://election-management-system-kezo.onrender.com/" },
   { title: "Ecommerce", image: ecommerceImage, url: "https://fullstack-frontend-sable-three.vercel.app/" },
+  { title: "Smart Link APi", image: SmartLinkImage, url: "https://smart-link-api-9al7.onrender.com/" },
   { title: "Guest House", image: guestHouseImage, url: "https://080aasim.github.io/guestHouse/" },
   { title: "Shopping Cart Demo", image: shoppingCartImage, url: "https://080aasim.github.io/shoppingCart/" },
   { title: "Cat Fact Generator", image: catFactImage, url: "https://080aasim.github.io/catFact/" },
