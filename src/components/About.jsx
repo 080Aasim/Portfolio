@@ -10,16 +10,32 @@ import DotField from "./DotField";
 import Strands from "./Strands";
 import TextPressure from "./TextPressure";
 import ScrambledText from "./ScrambledText";
+import { FaDocker } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { DiRedis } from "react-icons/di";
+import { SiRender } from "react-icons/si";
+import { IoLogoVercel } from "react-icons/io5";
+import { SiCloudinary } from "react-icons/si";
+import { SiJsonwebtokens } from "react-icons/si";
 
 const skills = [
-  { name: "HTML", icon: MdHtml },
-  { name: "CSS", icon: FaCss3 },
-  { name: "Tailwind", icon: RiTailwindCssFill },
-  { name: "JavaScript", icon: IoLogoJavascript },
-  { name: "React", icon: FaReact },
   { name: "Node.js", icon: DiNodejs },
   { name: "Express", icon: SiExpress },
   { name: "MongoDB", icon: BiLogoMongodb },
+  { name: "Postgresql", icon: BiLogoPostgresql },
+  { name: "Redis", icon: DiRedis },
+  { name: "Cloudinary", icon: SiCloudinary },
+  { name: "Jsonwebtokens", icon: SiJsonwebtokens },
+  { name: "Docker", icon: FaDocker  },
+  { name: "Postman", icon: SiPostman },
+  { name: "Render", icon: SiRender },
+  { name: "Vercel", icon: IoLogoVercel },
+  { name: "JavaScript", icon: IoLogoJavascript },
+  { name: "HTML", icon: MdHtml },
+  { name: "CSS", icon: FaCss3 },
+  { name: "Tailwind", icon: RiTailwindCssFill },
+  { name: "React", icon: FaReact },
   { name: "GitHub", icon: FaGithub },
 ];
 
@@ -89,7 +105,7 @@ function About() {
             speed={0.5}
             scrambleChars=".:"
           >
-            <p className=" text-black font-medium text-2xl mt-4">
+            <p className="text-black font-medium text-2xl mt-4 ">
               I build robust backend systems and APIs <br /> that make
               applications fast, reliable, and scalable.
             </p>
@@ -117,6 +133,13 @@ function About() {
             rel="noreferrer"
           >
             GitHub <span>↗</span>
+          </a>
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume <span>↗</span>
           </a>
         </div>
 

@@ -65,7 +65,7 @@ function Home() {
             />
           </div>
           <h1 className="main-line"></h1>
-          <div className="flex gap-4 items-center justify-center">
+          <div className="flex gap-4 items-center justify-center ">
             <a
               href="/resume.pdf"
               target="_blank"

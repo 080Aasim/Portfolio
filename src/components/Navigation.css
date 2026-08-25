@@ -61,18 +61,27 @@
 
 @media (max-width: 768px) {
   .main {
-    padding: 10px 12px;
-    font-size: clamp(0.72rem, 2.7vw, 1rem);
+    padding-inline: 8px;
+    font-size: 0.7rem;
   }
-
-  div.right {
-    display: none;
+  .main .left {
+    display: flex;
+    justify-content: flex-start;
   }
+}
 
-  div.left {
-    width: 100%;
-    justify-content: space-between;
-    gap: 6px;
+@media (max-width: 480px) {
+  .main {
+    padding-inline: 8px;
+    font-size: 0.7rem;
+  }
+  .main .left {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px
+  }
+  .right{
+    gap: 10px
   }
 }
 
@@ -80,5 +89,18 @@
   .main {
     padding-inline: 8px;
     font-size: 0.7rem;
+  }
+  .main .left {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .link{
+    font-size: 1rem;
+  }
+
+  .right{
+    /* display: none; */
+    gap: 8px
   }
 }

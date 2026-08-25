@@ -8,8 +8,10 @@ function Footer() {
 
   return (
     <div className="footer">
-      <button className="btn" onClick={scrollToTop}>ऊपर जाएँ</button>
-      <div className="dlink">
+      <button className="btn" onClick={scrollToTop}>
+        ऊपर जाएँ
+      </button>
+      <div className="dlink" >
         <NavLink className="flink" to="https://x.com/VanitasO8" target="_blank">
           ट्विटर
         </NavLink>
@@ -20,7 +22,9 @@ function Footer() {
         >
           लिंक्डइन
         </NavLink>
-        <NavLink className="flink" to="mailto:aasim9155@gmail.com">aasim9155@gmail.com</NavLink>
+        <NavLink className="flink" to="mailto:aasim9155@gmail.com">
+          aasim9155@gmail.com
+        </NavLink>
       </div>
     </div>
   );

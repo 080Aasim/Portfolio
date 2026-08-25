@@ -64,17 +64,11 @@ h1 {
   z-index: 1;
 }
 
-.text {
-  position: relative;
-  z-index: 1;
-}
-
-.resume-btn{
+.resume-btn {
   display: inline-block;
   padding: 10px 20px;
   font-size: 1rem;
   color: #000000;
-  /* background-color: #007bff; */
   border: none;
   border-radius: 4px;
   text-decoration: none;
@@ -85,7 +79,10 @@ h1 {
   /* background-color: white; */
   color: #000000;
   scale: 1.05;
-  transition: background-color, scale 0.2s ease-in-out, transform 0.2s ease-in-out;
+  transition:
+    background-color,
+    scale 0.2s ease-in-out,
+    transform 0.2s ease-in-out;
 }
 
 @media (max-width: 768px) {
@@ -95,7 +92,7 @@ h1 {
   }
 
   .img {
-    width: min(100%, 460px);
+    width: min(100%, 340px);
     height: clamp(300px, 52svh, 460px);
     background-size: 82% auto;
   }
@@ -115,7 +112,60 @@ h1 {
   }
 }
 
+@media (max-width: 480px) {
+  .intro {
+    padding: 18px 16px;
+    font-size: 1rem;
+  }
+
+  .img {
+    width: min(100%, 340px);
+    height: clamp(300px, 52svh, 460px);
+    background-size: 82% auto;
+  }
+
+  .poster-name {
+    top: 34%;
+    font-size: clamp(7rem, 19vw, 8rem);
+  }
+
+  .text {
+    width: min(100%, 620px);
+  }
+
+  .text p {
+    font-size: clamp(0.9rem, 3.5vw, 1.15rem) !important;
+    line-height: 1.45;
+  }
+
+  .resume-btn {
+    font-size: 1px;
+  }
+}
+
 @media (max-width: 380px) {
-  .img { height: 280px; }
-  .poster-name { top: 32%; }
+  .intro {
+    padding: 18px 16px;
+    font-size: 1rem;
+  }
+
+  .img {
+    width: min(100%, 340px);
+    height: clamp(300px, 52svh, 460px);
+    background-size: 82% auto;
+  }
+
+  .poster-name {
+    top: 34%;
+    font-size: clamp(6rem, 19vw, 8rem);
+  }
+
+  .text {
+    width: min(100%, 620px);
+  }
+
+  .text p {
+    font-size: clamp(0.9rem, 3.5vw, 1.15rem) !important;
+    line-height: 1.45;
+  }
 }
