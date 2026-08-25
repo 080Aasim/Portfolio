@@ -30,7 +30,7 @@ function Home() {
           glowColor="#120F17"
         />
       </div>
-      <div className="intro z-10 absolute top-43">
+      <div className="intro z-10">
         {/* <img src="/src/assets/aasim.png" alt="" className="img" /> */}
         <div className="poster-name" aria-hidden="true">
           AASIM
@@ -61,7 +61,7 @@ function Home() {
               italic
               textColor="#000000"
               strokeColor="#5227FF"
-              minFontSize={36}
+              minFontSize={24}
             />
           </div>
           <h1 className="main-line"></h1>
@@ -74,7 +74,7 @@ function Home() {
             >
               <ShinyText
                 text="View Resume"
-                className="text-2xl font-serif"
+                className="text-2xl font-serif max-[480px]:text-lg"
                 speed={2}
                 delay={0}
                 color="#6b7280"
@@ -94,7 +94,7 @@ function Home() {
             >
               <ShinyText
                 text="Download Resume"
-                className="text-2xl font-serif"
+                className="text-2xl font-serif max-[480px]:text-lg"
                 speed={2}
                 delay={0}
                 color="#6b7280"

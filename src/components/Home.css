@@ -119,14 +119,14 @@ h1 {
   }
 
   .img {
-    width: min(100%, 340px);
-    height: clamp(300px, 52svh, 460px);
+    width: min(100%, 300px);
+    height: 360px;
     background-size: 82% auto;
   }
 
   .poster-name {
     top: 34%;
-    font-size: clamp(7rem, 19vw, 8rem);
+    font-size: clamp(4rem, 19vw, 8rem);
   }
 
   .text {
@@ -136,10 +136,6 @@ h1 {
   .text p {
     font-size: clamp(0.9rem, 3.5vw, 1.15rem) !important;
     line-height: 1.45;
-  }
-
-  .resume-btn {
-    font-size: 1px;
   }
 }
 
@@ -157,7 +153,7 @@ h1 {
 
   .poster-name {
     top: 34%;
-    font-size: clamp(6rem, 19vw, 8rem);
+    font-size: clamp(4rem, 19vw, 8rem);
   }
 
   .text {
