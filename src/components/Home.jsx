@@ -33,7 +33,7 @@ function Home() {
       <div className="intro z-10">
         {/* <img src="/src/assets/aasim.png" alt="" className="img" /> */}
         <div className="poster-name" aria-hidden="true">
-          AASIM AKHTAR
+          AASIM 
         </div>
         <div className="img backImg"></div>
         <div className="text">
