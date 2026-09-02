@@ -119,14 +119,14 @@ h1 {
   }
 
   .img {
-    width: min(100%, 300px);
-    height: 360px;
+    width: min(100%, 390px);
+    height: 380px;
     background-size: 82% auto;
   }
 
   .poster-name {
     top: 34%;
-    font-size: clamp(4rem, 19vw, 8rem);
+    font-size: clamp(8rem, 19vw, 8rem);
   }
 
   .text {
