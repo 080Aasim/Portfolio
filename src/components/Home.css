@@ -126,7 +126,7 @@ h1 {
 
   .poster-name {
     top: 34%;
-    font-size: clamp(8rem, 19vw, 8rem);
+    font-size: clamp(4rem, 22vw, 6rem);
   }
 
   .text {
